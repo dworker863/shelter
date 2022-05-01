@@ -1,1 +1,71 @@
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    /* Modern Browsers */ url("../fonts/Montserrat/Montserrat-Regular.woff2")
+      format("woff2");
+}
 
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""),
+    /* Modern Browsers */ url("../fonts/Montserrat/Montserrat-Light.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+    /* Modern Browsers */ url("../fonts/Montserrat/Montserrat-Medium.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""),
+    /* Modern Browsers */ url("../fonts/Montserrat/Montserrat-SemiBold.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    /* Modern Browsers */ url("../fonts/Montserrat/Montserrat-Bold.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    /* Modern Browsers */ url("../fonts/Montserrat/OpenSans-Regular.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "Qanelas";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""),
+    /* Modern Browsers */ url("../fonts/Qanelas/Qanelas-Light.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "Qanelas";
+  font-style: normal;
+  font-weight: 900;
+  src: local(""),
+    /* Modern Browsers */ url("../fonts/Qanelas/Qanelas-Black.woff2")
+      format("woff2");
+}
