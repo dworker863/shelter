@@ -28,7 +28,6 @@ body {
   padding: 0;
   font-size: 16px;
   color: $font-color;
-  background-color: blue;
 }
 
 .container {
@@ -83,17 +82,27 @@ body {
 }
 
 .btn {
-  font-family: Montserrat, serif;
-  font-weight: 500;
-  padding: 10px 55px;
+  padding: 25px 95px;
+  border-radius: 8px;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: Qanelas, serif;
 }
 
 .btn-orange {
-  border-radius: 20px;
+  border-bottom-left-radius: 100px 100%;
+  border-top-left-radius: 100px 100%;
+  border-bottom-right-radius: 100px 100%;
+  border-top-right-radius: 100px 100%;
+  font-size: 30px;
+  font-weight: 500;
   background-color: $orange;
 }
 
 .btn-call {
+  font-family: Montserrat, serif;
+  padding: 10px 55px;
+  border-radius: 20px;
   font-size: 14px;
 }
 
@@ -218,11 +227,25 @@ body {
 }
 
 .btn-yellow {
-  padding: 25px 95px;
   border-radius: 8px;
   font-size: 30px;
   font-weight: 300;
   background-color: $yellow;
+}
+
+.about {
+  padding-top: 80px;
+  font-size: 24px;
+  text-align: center;
+
+  p {
+    margin-bottom: 55px;
+  }
+}
+
+.about-title {
+  margin-top: 0;
+  font-size: 72px;
 }
 
 @import "media";
