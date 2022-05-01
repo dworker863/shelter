@@ -27,6 +27,7 @@ body {
 }
 
 .container {
+  position: relative;
   width: 1140px;
   margin: 0 auto;
 }
@@ -84,8 +85,47 @@ body {
   font-size: 14px;
 }
 
+.top-line__contacts {
+  position: absolute;
+  display: flex;
+  gap: 35px;
+  top: 0;
+  right: 0;
+}
+
+.top-line__email .fa-envelope {
+  color: $orange;
+}
+
+.top-line__email-text {
+  font-weight: 700;
+}
+
+.top-line__socials {
+  display: flex;
+  color: $orange;
+
+  .fa-instagram {
+    font-size: 23px;
+    line-height: 21px;
+  }
+}
+
 .top-line__fb {
-  font-size: 16px;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border: 2px solid $orange;
+  border-radius: 2px;
+  vertical-align: middle;
+
+  i {
+    position: absolute;
+    bottom: -1px;
+    right: 2px;
+    font-size: 14px;
+  }
 }
 
 @import "media";
