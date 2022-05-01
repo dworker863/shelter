@@ -17,8 +17,11 @@ button {
 }
 
 body {
+  font-family: Montserrat, serif;
   margin: 0;
   padding: 0;
+  font-size: 16px;
+  color: $font-color;
   background-color: blue;
 }
 
@@ -27,9 +30,44 @@ body {
   margin: 0 auto;
 }
 
+.header {
+  position: relative;
+}
+
 .top-line {
+  min-height: 110px;
   padding-top: 35px;
   background-color: #fff;
+}
+
+.logo-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.nav {
+  display: flex;
+  gap: 140px;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 75px;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.nav-item {
+  font-weight: 500;
+  text-transform: uppercase;
+
+  &:last-child {
+    margin-left: 135px;
+  }
 }
 
 .btn {
@@ -37,8 +75,12 @@ body {
 }
 
 .btn-orange {
-  border-radius: 12px;
+  border-radius: 20px;
   background-color: $orange;
+}
+
+.btn-call {
+  font-size: 14px;
 }
 
 @import "media";
