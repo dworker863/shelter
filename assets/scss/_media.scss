@@ -1,1 +1,43 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
 
+  .logo {
+    width: 150px;
+  }
+
+  .nav {
+    gap: 50px;
+  }
+
+  .nav-menu {
+    gap: 35px;
+  }
+
+  .nav-item {
+    font-size: 16px;
+
+    &:last-child {
+      margin-left: 155px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}

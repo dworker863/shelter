@@ -13,6 +13,11 @@ li {
   list-style-type: none;
 }
 
+a {
+  color: $font-color;
+  text-decoration: none;
+}
+
 button {
   border: none;
 }
@@ -53,12 +58,12 @@ body {
   display: flex;
   gap: 140px;
   align-items: center;
-  padding-top: 35px;
+  padding-top: 32px;
 }
 
 .nav-menu {
   display: flex;
-  gap: 75px;
+  gap: 70px;
   align-items: flex-end;
   width: 100%;
 }
@@ -68,11 +73,13 @@ body {
   text-transform: uppercase;
 
   &:last-child {
-    margin-left: 135px;
+    margin-left: 155px;
   }
 }
 
 .btn {
+  font-family: Montserrat, serif;
+  font-weight: 500;
   padding: 10px 55px;
 }
 
@@ -98,7 +105,7 @@ body {
 }
 
 .top-line__email-text {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .top-line__socials {
