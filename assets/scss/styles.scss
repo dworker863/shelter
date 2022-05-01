@@ -39,10 +39,14 @@ body {
 }
 
 .header {
-  position: relative;
+  height: 100vh;
+  background-image: url(../images/header-bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .top-line {
+  position: relative;
   height: 110px;
   padding-top: 35px;
   background-color: #fff;
@@ -188,6 +192,37 @@ body {
     top: 10px;
     left: 0;
   }
+}
+
+.header-desc {
+  font-family: Qanelas, serif;
+  margin-top: 200px;
+  color: #fff;
+  width: 60%;
+}
+
+.header-title {
+  font-size: 64px;
+  font-weight: 900;
+}
+
+.header-cite {
+  width: 420px;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.header-author {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.btn-yellow {
+  padding: 25px 95px;
+  border-radius: 8px;
+  font-size: 30px;
+  font-weight: 300;
+  background-color: $yellow;
 }
 
 @import "media";
