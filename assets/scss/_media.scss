@@ -90,12 +90,25 @@
     font-size: 24px;
   }
 
-  .btn-yellow {
+  .btn {
     padding: 18px 55px;
-    border-radius: 8px;
     font-size: 22px;
     font-weight: 300;
-    background-color: $yellow;
+  }
+
+  .about {
+    font-size: 18px;
+  }
+
+  .about-title {
+    font-size: 52px;
+  }
+
+  .btn-orange {
+    border-bottom-left-radius: 70px 100%;
+    border-top-left-radius: 70px 100%;
+    border-bottom-right-radius: 70px 100%;
+    border-top-right-radius: 70px 100%;
   }
 }
 
@@ -137,8 +150,27 @@
     font-size: 20px;
   }
 
-  .btn-yellow {
+  .btn {
     padding: 15px 40px;
     font-size: 18px;
+  }
+
+  .about {
+    padding-top: 40px;
+    font-size: 16px;
+    p {
+      margin-bottom: 40px;
+    }
+  }
+
+  .about-title {
+    font-size: 42px;
+  }
+
+  .btn-orange {
+    border-bottom-left-radius: 60px 100%;
+    border-top-left-radius: 60px 100%;
+    border-bottom-right-radius: 60px 100%;
+    border-top-right-radius: 60px 100%;
   }
 }

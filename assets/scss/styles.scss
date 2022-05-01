@@ -89,16 +89,6 @@ body {
   font-family: Qanelas, serif;
 }
 
-.btn-orange {
-  border-bottom-left-radius: 100px 100%;
-  border-top-left-radius: 100px 100%;
-  border-bottom-right-radius: 100px 100%;
-  border-top-right-radius: 100px 100%;
-  font-size: 30px;
-  font-weight: 500;
-  background-color: $orange;
-}
-
 .btn-call {
   font-family: Montserrat, serif;
   padding: 10px 55px;
@@ -228,13 +218,12 @@ body {
 
 .btn-yellow {
   border-radius: 8px;
-  font-size: 30px;
   font-weight: 300;
   background-color: $yellow;
 }
 
 .about {
-  padding-top: 80px;
+  padding-top: 70px;
   font-size: 24px;
   text-align: center;
 
@@ -246,6 +235,14 @@ body {
 .about-title {
   margin-top: 0;
   font-size: 72px;
+}
+
+.btn-orange {
+  border-bottom-left-radius: 100px 100%;
+  border-top-left-radius: 100px 100%;
+  border-bottom-right-radius: 100px 100%;
+  border-top-right-radius: 100px 100%;
+  background-color: $orange;
 }
 
 @import "media";
