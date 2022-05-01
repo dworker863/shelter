@@ -35,7 +35,10 @@ function styles() {
 
 function scripts() {
   return gulp
-    .src(["./assets/js/common.js"])
+    .src([
+      "node_modules/jquery/dist/jquery.slim.min.js",
+      "./assets/js/common.js",
+    ])
     .pipe(sourcemaps.init())
     .pipe(concat("scripts.min.js"))
     .pipe(uglify())

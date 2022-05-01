@@ -28,6 +28,26 @@
   .container {
     width: 720px;
   }
+
+  .hamburger-wrapper {
+    display: block;
+    width: 30px;
+    right: 0;
+  }
+
+  .top-line {
+    padding-top: 10px;
+    height: 85px;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+
+  .top-line__contacts {
+    left: 0;
+    top: 50%;
+  }
 }
 
 @media (max-width: 768px) {
