@@ -1,5 +1,6 @@
 @import "vars";
 @import "fonts";
+@import "libs";
 
 * {
   box-sizing: border-box;
@@ -81,6 +82,10 @@ body {
 
 .btn-call {
   font-size: 14px;
+}
+
+.top-line__fb {
+  font-size: 16px;
 }
 
 @import "media";
