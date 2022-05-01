@@ -54,10 +54,18 @@
   .container {
     width: 540px;
   }
+
+  .top-line__contacts {
+    display: none;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .container {
     width: 100%;
+  }
+
+  .hamburger-wrapper {
+    right: 20px;
   }
 }
