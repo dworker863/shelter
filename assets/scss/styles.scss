@@ -1,0 +1,44 @@
+@import "vars";
+@import "fonts";
+
+* {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+button {
+  border: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.top-line {
+  padding-top: 35px;
+  background-color: #fff;
+}
+
+.btn {
+  padding: 10px 55px;
+}
+
+.btn-orange {
+  border-radius: 12px;
+  background-color: $orange;
+}
+
+@import "media";
