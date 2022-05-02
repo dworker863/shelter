@@ -91,12 +91,50 @@ body {
   }
 }
 
+.nav-mobile {
+  z-index: 10;
+  position: absolute;
+  display: block;
+  width: 320px;
+  height: 100vh;
+  padding-top: 80px;
+  background-color: #fff;
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .nav-item {
+    margin: 0;
+  }
+
+  .top-line__contacts {
+    display: none;
+  }
+}
+
 .btn {
   padding: 25px 95px;
   border-radius: 8px;
   font-size: 30px;
   font-weight: 300;
   font-family: Qanelas, serif;
+}
+
+.btn-orange {
+  border-bottom-left-radius: 100px 100%;
+  border-top-left-radius: 100px 100%;
+  border-bottom-right-radius: 100px 100%;
+  border-top-right-radius: 100px 100%;
+  background-color: $orange;
+}
+
+.btn-yellow {
+  border-radius: 8px;
+  font-weight: 300;
+  background-color: $yellow;
 }
 
 .btn-call {
@@ -226,12 +264,6 @@ body {
   font-weight: 300;
 }
 
-.btn-yellow {
-  border-radius: 8px;
-  font-weight: 300;
-  background-color: $yellow;
-}
-
 .about {
   padding-top: 70px;
   font-size: 24px;
@@ -245,14 +277,6 @@ body {
 .about-title {
   margin-top: 0;
   font-size: 72px;
-}
-
-.btn-orange {
-  border-bottom-left-radius: 100px 100%;
-  border-top-left-radius: 100px 100%;
-  border-bottom-right-radius: 100px 100%;
-  border-top-right-radius: 100px 100%;
-  background-color: $orange;
 }
 
 .about-photos {
