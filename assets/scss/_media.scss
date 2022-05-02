@@ -110,6 +110,50 @@
     border-bottom-right-radius: 70px 100%;
     border-top-right-radius: 70px 100%;
   }
+
+  .gallery-1 {
+    background-position: 30%;
+  }
+
+  .gallery-2 {
+    background-position: 30%;
+  }
+
+  .gallery-3 {
+    background-position: 30%;
+  }
+
+  .gallery-4 {
+    background-position: 50%;
+  }
+
+  .gallery-5 {
+    background-position: 50%;
+  }
+
+  .gallery-6 {
+    background-position: 30%;
+  }
+
+  .gallery-7 {
+    background-position: 70%;
+  }
+
+  .gallery-8 {
+    background-position: 30%;
+  }
+
+  .gallery-9 {
+    background-position: 30%;
+  }
+
+  .gallery-11 {
+    background-position: 30%;
+  }
+
+  .gallery-12 {
+    background-position: 30%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -123,6 +167,64 @@
 
   .header-desc {
     width: 80%;
+  }
+
+  .gallery-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .gallery-2 {
+    display: none;
+  }
+
+  .gallery-3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .gallery-4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+
+  .gallery-5 {
+    display: none;
+  }
+
+  .gallery-6 {
+    display: none;
+  }
+
+  .gallery-7 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+
+  .gallery-8 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+
+  .gallery-9 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 8;
+  }
+
+  .gallery-10 {
+    display: none;
   }
 }
 
@@ -172,5 +274,38 @@
     border-top-left-radius: 60px 100%;
     border-bottom-right-radius: 60px 100%;
     border-top-right-radius: 60px 100%;
+  }
+
+  .gallery-1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .gallery-3 {
+    display: none;
+  }
+
+  .gallery-7 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+
+  .gallery-8 {
+    display: none;
+  }
+
+  .gallery-11 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 8;
+    grid-row-end: 9;
+  }
+
+  .gallery-12 {
+    display: none;
   }
 }
