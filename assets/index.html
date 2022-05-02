@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="home" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,10 +15,16 @@
       <div class="overflow-wrapper">
         <nav class="nav nav-mobile">
           <ul class="nav-menu">
-            <li class="nav-item">Главная</li>
-            <li class="nav-item">О приюте</li>
-            <li class="nav-item">О фотографии</li>
-            <li class="nav-item">Контакты</li>
+            <li class="nav-item">
+              <a href="#home">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about">О приюте</a>
+            </li>
+            <li class="nav-item">
+              <a href="#photo">О фотографии</a>
+            </li>
+            <li class="nav-item"><a href="#contacts">Контакты</a></li>
             <button class="btn btn-call btn-orange">Позвонить</button>
             <div class="top-line__contacts">
               <a href="#" class="top-line__email">
@@ -54,10 +60,16 @@
           </div>
           <nav class="nav nav-desktop">
             <ul class="nav-menu">
-              <li class="nav-item">Главная</li>
-              <li class="nav-item">О приюте</li>
-              <li class="nav-item">О фотографии</li>
-              <li class="nav-item">Контакты</li>
+              <li class="nav-item">
+                <a href="#home">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about">О приюте</a>
+              </li>
+              <li class="nav-item">
+                <a href="#photo">О фотографии</a>
+              </li>
+              <li class="nav-item"><a href="#contacts">Контакты</a></li>
             </ul>
             <button class="btn btn-call btn-orange">Позвонить</button>
           </nav>
@@ -75,7 +87,7 @@
       </div>
     </header>
     <main>
-      <section class="about">
+      <section id="about" class="about">
         <div class="container">
           <h2 class="about-title">О приюте</h2>
           <p class="about-date">ПРИЮТ ДОС. 12 января 2021г.</p>
@@ -95,7 +107,7 @@
             </p>
             <button class="btn btn-orange">Сделать добро!</button>
           </div>
-          <div class="about-photos">
+          <div id="photo" class="about-photos">
             <div class="gallery-1"></div>
             <div class="gallery-2"></div>
             <div class="gallery-3"></div>
@@ -111,7 +123,7 @@
           </div>
         </div>
       </section>
-      <section class="help">
+      <section id="contacts" class="help">
         <div class="container">
           <h2 class="help-title">Чем можно нам помочь?</h2>
           <div class="help-items">

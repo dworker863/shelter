@@ -30,6 +30,10 @@ input {
   border-radius: 2px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Montserrat, serif;
   margin: 0;
