@@ -366,4 +366,72 @@ body {
   grid-row-end: 9;
 }
 
+.help {
+  text-align: center;
+}
+
+.help-title,
+.help-thanks {
+  font-family: Qanelas, serif;
+  font-size: 48px;
+  font-weight: 900;
+  color: $font-color-secondary;
+}
+
+.help-items {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 75px;
+}
+
+.help-item {
+  display: flex;
+  flex-direction: column;
+  width: 365px;
+}
+
+.help-photo {
+  margin-bottom: 40px;
+}
+
+.help-payment {
+  display: flex;
+  gap: 120px;
+}
+
+.payment-item {
+  display: flex;
+  align-items: center;
+  width: 515px;
+}
+
+.payment-photo {
+  margin-right: 45px;
+}
+
+.payment-title {
+  margin-top: 0;
+}
+
+.payment-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.payment-link {
+  margin-bottom: 5px;
+
+  img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+}
+
+.payment-owner {
+  margin-top: 0;
+  margin-left: 40px;
+}
+
 @import "media";
