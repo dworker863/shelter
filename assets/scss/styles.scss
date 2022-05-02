@@ -23,6 +23,7 @@ button {
 }
 
 input {
+  width: 275px;
   margin-right: 10px;
   padding: 15px 35px;
   border: none;
@@ -488,6 +489,25 @@ form > div {
   font-size: 13px;
   font-weight: 500;
   background-color: $yellow;
+}
+
+.footer {
+  position: relative;
+  height: 110px;
+  background-color: #000;
+
+  .top-line__contacts {
+    top: 25px;
+  }
+
+  .logo-wrapper {
+    top: -80px;
+    bottom: auto;
+  }
+
+  .logo {
+    width: 110px;
+  }
 }
 
 @import "media";
