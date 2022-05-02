@@ -51,6 +51,20 @@
     justify-content: space-between;
     gap: 0;
   }
+
+  form > div {
+    margin-bottom: 30px;
+  }
+
+  .phone {
+    margin-right: 0;
+  }
+
+  .btn-submit {
+    margin: 0 auto;
+    padding-right: 84px;
+    padding-left: 84px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -172,6 +186,20 @@
 
   .help-thanks {
     font-size: 36px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      margin-right: 0;
+    }
+
+    & > div i {
+      left: 50%;
+      transform: translateX(-108px);
+    }
   }
 }
 
@@ -377,6 +405,10 @@
   }
 
   .help-thanks {
+    font-size: 24px;
+  }
+
+  .callback-title {
     font-size: 24px;
   }
 }
