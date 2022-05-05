@@ -1,6 +1,6 @@
-@import "vars";
-@import "fonts";
-@import "libs";
+@import 'vars';
+@import 'fonts';
+@import 'libs';
 
 * {
   box-sizing: border-box;
@@ -187,7 +187,10 @@ body {
 
 .top-line__socials {
   display: flex;
-  color: $orange;
+
+  a {
+    color: $orange;
+  }
 
   .fa-instagram {
     font-size: 23px;
@@ -248,7 +251,7 @@ body {
   &:before,
   &:after {
     position: absolute;
-    content: "";
+    content: '';
     width: 30px;
     height: 4px;
     border-radius: 5px;
@@ -564,4 +567,4 @@ form > div {
   }
 }
 
-@import "media";
+@import 'media';
