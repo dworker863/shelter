@@ -35,6 +35,12 @@
     }
   }
 
+  .nav-mobile {
+    .nav-item:last-child {
+      margin-left: 0;
+    }
+  }
+
   .header-title {
     font-size: 48px;
   }
